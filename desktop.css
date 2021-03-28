@@ -1,0 +1,100 @@
+/* For desktop: */
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+/*////////header part//////////*/
+.nav-logo{
+    text-align: left;
+}
+.nav-header{
+    text-align: right;
+}
+.nav-menu{
+    flex-direction: row;
+    justify-content: flex-end;
+}
+.nav-menu a{
+    background-color: transparent;
+    margin: 20px 0;
+    padding: 5px 15px;
+}
+/*////////header part End////////*/
+
+/*////////Profile part //////////*/
+.profile .top-image{
+    right: 100px;
+    width: 120px;
+    transition: width 2s, transform 2s;
+}
+.profile .top-image:hover{
+    width: 140px;
+}
+.profile-desc p{
+    color: gray;
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 10px;
+}
+.profile .bottom-image{
+    right: 100px;
+    width: 120px;
+    transition: width 2s, transform 2s;
+}
+.profile .bottom-image:hover{
+    width: 140px;
+}
+/*//////Profile part End////////*/
+
+/*//////About Me////////*/
+.about-me img{
+    margin-top: 100px;
+    margin-right: 120px;
+    height: 270px;
+    width: 250px;
+}
+.about-me-desc p{
+    text-align: left;
+}
+#edu-card{
+    margin: 90px 0;
+}
+/*/////About Me End//////*/
+
+/*/////Contact Section/////*/
+.contact{
+    padding-right: 50px;
+}
+.contact-me button{
+    width: 150px;
+}
+.contact-links{
+    position: relative;
+}
+.media-button{
+    position: absolute;
+    margin-top: 200px;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+}
+/*/////Contact Section End/////*/
+
+/*/////footer Section/////*/
+.footer-menu{
+    margin-top: 25px;
+}
+.footer-menu a{
+display: inline;
+margin: 10px;
+}
+/*/////footer Section End/////*/
